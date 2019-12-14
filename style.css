@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: gray;
+}
+
+h1 {
+  border: solid 4px gold;
+  padding: 20px;
+  color: gold;
+  font-family: helvetica;
+  background-color: #151d4d;
+}
+
+table {
+  border: solid 4px gray;
+  margin: auto;
+}
+
+.cell {
+  height: 80px;
+  width: 80px;
+  border: 2px solid gray;
+}
+
+.cell:hover {
+  cursor: pointer;  
+  background-color: #20437a;
+}
+
+.cell.on {
+  background-color: gold;
+}
+
+.cell.on:hover {
+  background-color: #fffda1;
+}
+
+td {
+  background-color: #151d4d;
+}
